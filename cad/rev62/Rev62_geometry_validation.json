@@ -1,0 +1,333 @@
+{
+  "parameters_mm": {
+    "tube_id": 10.2,
+    "tube_od": 12.0,
+    "stack_length": 94.0,
+    "magnet_od": 10.0,
+    "magnet_piece_length": 5.0,
+    "pole_id": 5.0,
+    "pole_od": 10.0,
+    "pole_length": 2.0,
+    "bobbin_id": 12.4,
+    "bobbin_base_od": 12.6,
+    "coil_od": 16.8,
+    "coil_length": 4.0,
+    "coil_pitch": 8.0,
+    "coil_count": 6,
+    "end_flange_length": 0.5,
+    "travel": 20.0
+  },
+  "source_femm": "E:\\temp\\Rev62_4mm_COILS_2.1mm_RADIAL_80T_ROBUST_BOBBIN.fem",
+  "source_sha256": "748184a8c8a98f8fb94adc57fbf3906c6595afc44fd89ff8432fc69b75206ba1",
+  "source_to_centered_coil_translation_mm": -36,
+  "components": [
+    {
+      "name": "Magnet_01_plusZ",
+      "kind": "magnet",
+      "z_min": -47,
+      "z_max": -42,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_02_plusZ",
+      "kind": "magnet",
+      "z_min": -42,
+      "z_max": -37,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_01_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": -37,
+      "z_max": -35,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_03_minusZ",
+      "kind": "magnet",
+      "z_min": -35,
+      "z_max": -30,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_04_minusZ",
+      "kind": "magnet",
+      "z_min": -30,
+      "z_max": -25,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_02_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": -25,
+      "z_max": -23,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_05_plusZ",
+      "kind": "magnet",
+      "z_min": -23,
+      "z_max": -18,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_06_plusZ",
+      "kind": "magnet",
+      "z_min": -18,
+      "z_max": -13,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_03_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": -13,
+      "z_max": -11,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_07_minusZ",
+      "kind": "magnet",
+      "z_min": -11,
+      "z_max": -6,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_08_minusZ",
+      "kind": "magnet",
+      "z_min": -6,
+      "z_max": -1,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_04_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": -1,
+      "z_max": 1,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_09_plusZ",
+      "kind": "magnet",
+      "z_min": 1,
+      "z_max": 6,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_10_plusZ",
+      "kind": "magnet",
+      "z_min": 6,
+      "z_max": 11,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_05_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": 11,
+      "z_max": 13,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_11_minusZ",
+      "kind": "magnet",
+      "z_min": 13,
+      "z_max": 18,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_12_minusZ",
+      "kind": "magnet",
+      "z_min": 18,
+      "z_max": 23,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_06_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": 23,
+      "z_max": 25,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_13_plusZ",
+      "kind": "magnet",
+      "z_min": 25,
+      "z_max": 30,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_14_plusZ",
+      "kind": "magnet",
+      "z_min": 30,
+      "z_max": 35,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Steel_ring_07_ID5_OD10_L2",
+      "kind": "steel",
+      "z_min": 35,
+      "z_max": 37,
+      "volume_mm3": 117.80972450961724
+    },
+    {
+      "name": "Magnet_15_minusZ",
+      "kind": "magnet",
+      "z_min": 37,
+      "z_max": 42,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Magnet_16_minusZ",
+      "kind": "magnet",
+      "z_min": 42,
+      "z_max": 47,
+      "volume_mm3": 392.6990816987241
+    },
+    {
+      "name": "Carbon_tube_ID10p2_OD12_L94",
+      "kind": "tube",
+      "z_min": -47,
+      "z_max": 47,
+      "volume_mm3": 2950.143997280031
+    },
+    {
+      "name": "Coil_1_phase_A_80turn_ENVELOPE",
+      "kind": "coil",
+      "z_min": -22,
+      "z_max": -18,
+      "volume_mm3": 387.9238608652679
+    },
+    {
+      "name": "Coil_2_phase_B_80turn_ENVELOPE",
+      "kind": "coil",
+      "z_min": -14,
+      "z_max": -10,
+      "volume_mm3": 387.9238608652679
+    },
+    {
+      "name": "Coil_3_phase_C_80turn_ENVELOPE",
+      "kind": "coil",
+      "z_min": -6,
+      "z_max": -2,
+      "volume_mm3": 387.9238608652679
+    },
+    {
+      "name": "Coil_4_phase_A_80turn_ENVELOPE",
+      "kind": "coil",
+      "z_min": 2,
+      "z_max": 6,
+      "volume_mm3": 387.9238608652679
+    },
+    {
+      "name": "Coil_5_phase_B_80turn_ENVELOPE",
+      "kind": "coil",
+      "z_min": 10,
+      "z_max": 14,
+      "volume_mm3": 387.9238608652679
+    },
+    {
+      "name": "Coil_6_phase_C_80turn_ENVELOPE",
+      "kind": "coil",
+      "z_min": 18,
+      "z_max": 22,
+      "volume_mm3": 387.9238608652679
+    },
+    {
+      "name": "Bobbin_PROVISIONAL_ID12p4_baseOD12p6_L45",
+      "kind": "bobbin",
+      "z_min": -22.5,
+      "z_max": 22.5,
+      "volume_mm3": 2213.314856307082
+    }
+  ],
+  "exports": [
+    {
+      "file": "Rev62_centered_assembly.step",
+      "solids": 31,
+      "volume_mm3": 14598.855397525767,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_magnet_steel_stack.step",
+      "solids": 23,
+      "volume_mm3": 7107.853378746952,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_moving_coil_pack.step",
+      "solids": 7,
+      "volume_mm3": 4540.85802149879,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_bobbin_provisional.step",
+      "solids": 1,
+      "volume_mm3": 2213.314856307132,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_carbon_tube.step",
+      "solids": 1,
+      "volume_mm3": 2950.1439972800945,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_magnet_OD10_L5.step",
+      "solids": 1,
+      "volume_mm3": 392.69908169872417,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_pole_ring_ID5_OD10_L2.step",
+      "solids": 1,
+      "volume_mm3": 117.80972450961981,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_coil_envelope_ID12p6_OD16p8_L4.step",
+      "solids": 1,
+      "volume_mm3": 387.9238608652763,
+      "reimport_valid": true
+    },
+    {
+      "file": "Rev62_unassigned_outer_envelope_REFERENCE_ONLY.step",
+      "solids": 1,
+      "volume_mm3": 17718.582566246823,
+      "reimport_valid": true
+    }
+  ],
+  "positive_volume_interferences": [],
+  "travel_checks": [
+    {
+      "position_mm": -20,
+      "coil_extent_mm": [
+        -42,
+        2
+      ],
+      "coil_min_stack_end_margin_mm": 5,
+      "bobbin_min_stack_end_margin_mm": 4.5
+    },
+    {
+      "position_mm": 0,
+      "coil_extent_mm": [
+        -22,
+        22
+      ],
+      "coil_min_stack_end_margin_mm": 25,
+      "bobbin_min_stack_end_margin_mm": 24.5
+    },
+    {
+      "position_mm": 20,
+      "coil_extent_mm": [
+        -2,
+        42
+      ],
+      "coil_min_stack_end_margin_mm": 5,
+      "bobbin_min_stack_end_margin_mm": 4.5
+    }
+  ],
+  "nominal_radial_clearances_mm": {
+    "magnet_to_tube": 0.1,
+    "tube_to_bobbin": 0.2,
+    "coil_to_reference_bore": 0.1
+  }
+}
