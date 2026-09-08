@@ -6,6 +6,12 @@ Revision 64 engineering reference for a three-phase moving-coil tubular permanen
 
 ![Revision 64 CAD cutaway](cad/rev64/Rev64_CAD_cutaway.png)
 
+## Motion preview
+
+![Revision 64 motion preview](media/rev64_real_life_motion.gif)
+
+The animation shows the recovered Rev64 concept with a fixed carbon tube, fixed magnet/pole stack and moving six-coil bobbin over the nominal ±20 mm stroke. It is an illustrative visualization made from the recovered dimensions. It does not add the still-open guide, carriage, end retention, wiring exit or mounting design.
+
 | Nominal feature | Revision 64 |
 |---|---|
 | Total geometric travel | 40 mm, centred ±20 mm |
@@ -70,6 +76,7 @@ docs/                    Engineering manual and source references
 records/                 Empty Rev64 build/test templates
 tools/                   Calculation, verification and run preparation
 tests/                   Numerical and edge-case checks
+media/                   Motion preview animation and rendered frames
 ```
 
 No license has been selected. Third-party standards and manuals are linked, not redistributed. Keep the repository private until ownership and release choices are settled.
