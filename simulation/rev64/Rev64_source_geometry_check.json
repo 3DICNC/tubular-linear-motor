@@ -1,0 +1,24 @@
+{
+  "parent": "Rev62_4mm_COILS_2.1mm_RADIAL_80T_ROBUST_BOBBIN.fem",
+  "parent_sha256": "748184a8c8a98f8fb94adc57fbf3906c6595afc44fd89ff8432fc69b75206ba1",
+  "derived": "Rev64_CENTERED_0p5mm_BOBBIN_80T.fem",
+  "derived_sha256": "afa877af7ce43e54f5b6ceb6e7b0b17d2501292402ecf4ee6bd0a6aa6bc4a589",
+  "changed_nodes": 24,
+  "changed_labels": 6,
+  "unchanged_segments": 104,
+  "stationary_geometry_unchanged": true,
+  "coil_radius_mm": [
+    6.7,
+    8.4
+  ],
+  "coil_centres_mm": [
+    -20,
+    -12,
+    -4,
+    4,
+    12,
+    20
+  ],
+  "turns_per_coil": 80,
+  "bobbin_represented_as_default_air": true
+}
