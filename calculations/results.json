@@ -1,0 +1,99 @@
+{
+  "stack_length_mm": 94.0,
+  "coil_pack_length_mm": 44.0,
+  "bobbin_length_mm": 45.0,
+  "coil_id_mm": 13.4,
+  "radial_window_mm": 1.7000000000000002,
+  "window_area_mm2": 6.800000000000001,
+  "coil_end_margin_at_full_travel_mm": 5.0,
+  "bobbin_end_margin_at_full_travel_mm": 4.5,
+  "magnet_to_tube_radial_gap_mm": 0.09999999999999964,
+  "tube_to_bobbin_radial_gap_mm": 0.20000000000000018,
+  "wire_radial_build_mm": 1.6860000000000002,
+  "wire_axial_build_mm": 3.934,
+  "radial_allowance_mm": 0.014000000000000012,
+  "axial_allowance_mm": 0.06599999999999984,
+  "finished_diameter_geometric_ceiling_mm": 0.2833333333333334,
+  "bare_copper_area_mm2": 0.04908738521234052,
+  "cross_section_copper_fill_fraction": 0.5774986495569472,
+  "layer_wire_lengths_m": [
+    0.6017218073126674,
+    0.6264398583111119,
+    0.6046466300731596,
+    0.6275991060002866,
+    0.6505515819274136,
+    0.6735040578545406
+  ],
+  "winding_wire_length_per_coil_m": 3.78446304147918,
+  "wire_length_with_allowance_per_coil_m": 3.98446304147918,
+  "six_coil_wire_consumption_m": 23.906778248875078,
+  "six_coil_purchase_with_waste_m": 28.688133898650094,
+  "six_coils_plus_trial_purchase_m": 33.46948954842511,
+  "coil_resistance20_ohm": 1.3873900310430505,
+  "coil_resistance20_low_ohm": 1.3328028873747857,
+  "coil_resistance20_high_ohm": 1.4455631914486464,
+  "phase_resistance20_ohm": 2.774780062086101,
+  "star_line_line_resistance20_ohm": 5.549560124172202,
+  "six_coil_copper_mass_including_allowance_g": 10.444338974487957,
+  "bobbin_volume_mm3": 2605.385619475087,
+  "single_coil_envelope_volume_mm3": 322.5787336706,
+  "Rev64_k_vector_mean_N_per_A": 2.3757220485155277,
+  "Rev64_k_vector_min_N_per_A": 2.35104849124,
+  "Rev64_k_vector_max_N_per_A": 2.41217428086,
+  "Rev64_k_phase_peak_equivalent_mean_N_per_A": 2.909653394771312,
+  "Rev64_k_phase_peak_equivalent_min_N_per_A": 2.879434582039123,
+  "Rev62_k_vector_mean_N_per_A": 2.485202175278385,
+  "mean_k_change_percent": -4.405280497977737,
+  "kf_peak_to_peak_over_mean_percent": 2.5729352328145736,
+  "historical_horizontal_inertia_force_N": 2.593,
+  "historical_vertical_upward_force_no_friction_N": 7.496325,
+  "historical_horizontal_equivalent_peak_current_A": 0.9005240182132288,
+  "historical_vertical_equivalent_peak_current_A": 2.6034017396190827,
+  "historical_vertical_hold_force_N": 4.903325,
+  "max_absolute_phase_back_emf_V_per_m_s": 2.15925941276,
+  "max_absolute_line_back_emf_V_per_m_s": 3.38217876113,
+  "current_scenarios_not_ratings": [
+    {
+      "equivalent_phase_peak_A": 0.1,
+      "vector_A": 0.1224744871391589,
+      "minimum_archived_force_N": 0.2879434582039123,
+      "copper_loss20_W": 0.04162170093129152,
+      "sinusoidal_phase_rms_current_density_A_mm2": 1.4405061058513697
+    },
+    {
+      "equivalent_phase_peak_A": 0.5,
+      "vector_A": 0.6123724356957945,
+      "minimum_archived_force_N": 1.4397172910195615,
+      "copper_loss20_W": 1.0405425232822878,
+      "sinusoidal_phase_rms_current_density_A_mm2": 7.2025305292568484
+    },
+    {
+      "equivalent_phase_peak_A": 0.75,
+      "vector_A": 0.9185586535436917,
+      "minimum_archived_force_N": 2.1595759365293423,
+      "copper_loss20_W": 2.3412206773851474,
+      "sinusoidal_phase_rms_current_density_A_mm2": 10.803795793885273
+    },
+    {
+      "equivalent_phase_peak_A": 1.0,
+      "vector_A": 1.224744871391589,
+      "minimum_archived_force_N": 2.879434582039123,
+      "copper_loss20_W": 4.162170093129151,
+      "sinusoidal_phase_rms_current_density_A_mm2": 14.405061058513697
+    },
+    {
+      "equivalent_phase_peak_A": 1.5,
+      "vector_A": 1.8371173070873834,
+      "minimum_archived_force_N": 4.319151873058685,
+      "copper_loss20_W": 9.36488270954059,
+      "sinusoidal_phase_rms_current_density_A_mm2": 21.607591587770546
+    },
+    {
+      "equivalent_phase_peak_A": 2.0,
+      "vector_A": 2.449489742783178,
+      "minimum_archived_force_N": 5.758869164078246,
+      "copper_loss20_W": 16.648680372516605,
+      "sinusoidal_phase_rms_current_density_A_mm2": 28.810122117027394
+    }
+  ]
+}
