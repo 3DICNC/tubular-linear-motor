@@ -1,0 +1,217 @@
+[
+  {
+    "path": "cad/rev62/README.md",
+    "sha256": "1e80ad1b2efaeb581cd537620201b9dc78a5e550293b0120254cfa08ae171fb4",
+    "bytes": 4968
+  },
+  {
+    "path": "cad/rev62/Rev62_bobbin_provisional.step",
+    "sha256": "11c92fdea016028c985ab1841ea0d805b2ded1009174a9d6584232c380cbc465",
+    "bytes": 92827
+  },
+  {
+    "path": "cad/rev62/Rev62_CAD_cutaway.png",
+    "sha256": "ca81b93d7bb5f223b025544e1eb6ebc31b1b13c5eefb9eca7a98c684ba91b79c",
+    "bytes": 76500
+  },
+  {
+    "path": "cad/rev62/Rev62_carbon_tube.step",
+    "sha256": "035b171bce5f7195fba2bf36df951dc0ee3ed871079d8a5e265500f06fc0109b",
+    "bytes": 12089
+  },
+  {
+    "path": "cad/rev62/Rev62_centered_assembly.step",
+    "sha256": "6c133c03029ee437db5ff09cb4cd0963561d9d513ba3016b1e7d64fbd5e75b94",
+    "bytes": 361952
+  },
+  {
+    "path": "cad/rev62/Rev62_coil_envelope_ID12p6_OD16p8_L4.step",
+    "sha256": "d26a0416e15737cd214882659e31bd627d5ac863083034d9c5a5a462dd360d15",
+    "bytes": 12123
+  },
+  {
+    "path": "cad/rev62/Rev62_geometry_validation.json",
+    "sha256": "eea238145b709e66542302c75d3eef08d0a11c16312d78c9aec1454f92622bdd",
+    "bytes": 7826
+  },
+  {
+    "path": "cad/rev62/Rev62_magnet_OD10_L5.step",
+    "sha256": "0d8368ba49bc5fc2aafa9933787bf825c51435f71d2cba12fa68912d7e543eae",
+    "bytes": 8405
+  },
+  {
+    "path": "cad/rev62/Rev62_magnet_steel_stack.step",
+    "sha256": "3a41ef560496489e953d9cb4d9a0910a0985a1a9ba0cdaadff5178488d643c02",
+    "bytes": 190892
+  },
+  {
+    "path": "cad/rev62/Rev62_moving_coil_pack.step",
+    "sha256": "01db67baddf75a68a56adbac4bd45b685313bfc3f16c1f051bb0b960c1387517",
+    "bytes": 159247
+  },
+  {
+    "path": "cad/rev62/Rev62_parametric_model.scad",
+    "sha256": "8b2ccfe398df03e380f2a197f59c86e7c85248a241fc5e425f0315d75a19b6b2",
+    "bytes": 3216
+  },
+  {
+    "path": "cad/rev62/Rev62_pole_ring_ID5_OD10_L2.step",
+    "sha256": "d5809110e84c29ec47aa42d0ddaca6ffd85a857d3728ebec6a82141c7c4ec100",
+    "bytes": 12092
+  },
+  {
+    "path": "cad/rev62/Rev62_unassigned_outer_envelope_REFERENCE_ONLY.step",
+    "sha256": "6f096596f5d7c40d51e1de5fb2ebb7f6312e3ec17e81534616797b805ecac065",
+    "bytes": 12180
+  },
+  {
+    "path": "cad/rev64/README.md",
+    "sha256": "46b11dad72a76dd54736ada5e8e45ae53afcba292dca823429756b100c3dda12",
+    "bytes": 1796
+  },
+  {
+    "path": "cad/rev64/Rev64_bobbin_provisional.step",
+    "sha256": "651d2aca53b47a630d83aae7b9511e039e61273e44d7eb157441d930402f5813",
+    "bytes": 92827
+  },
+  {
+    "path": "cad/rev64/Rev64_CAD_cutaway.png",
+    "sha256": "da116fcd58479412541160951aca18d49df4359cf213b8124b313d9417740a38",
+    "bytes": 76483
+  },
+  {
+    "path": "cad/rev64/Rev64_carbon_tube.step",
+    "sha256": "8a0ba021dbfcd64e5e59ce011197f97df10e5619bf9fc636644e2de78cba29fd",
+    "bytes": 12089
+  },
+  {
+    "path": "cad/rev64/Rev64_centered_assembly.step",
+    "sha256": "6e5726dd061fa4ba56dd9b9991532b33f60018be119e7176afd05c7480273d1d",
+    "bytes": 361952
+  },
+  {
+    "path": "cad/rev64/Rev64_coil_envelope_ID13p4_OD16p8_L4.step",
+    "sha256": "8e3a0490d329807af0d427bc8e6bba5ca69e05e428420e106c6adb070845d8b7",
+    "bytes": 12123
+  },
+  {
+    "path": "cad/rev64/Rev64_geometry_validation.json",
+    "sha256": "fc9f7c2b63b08133a3d4bde97361539ec5e72dae2f60520e6bee0af5973992b7",
+    "bytes": 7828
+  },
+  {
+    "path": "cad/rev64/Rev64_magnet_OD10_L5.step",
+    "sha256": "436a24e8f9744bec40746bcc9a09ce933b28eb766b4be0e03931e821dc743b01",
+    "bytes": 8405
+  },
+  {
+    "path": "cad/rev64/Rev64_magnet_steel_stack.step",
+    "sha256": "74e4da909fd055efad9e439612bb479eecf195eeaec86572f193cd11703866cc",
+    "bytes": 190892
+  },
+  {
+    "path": "cad/rev64/Rev64_moving_coil_pack.step",
+    "sha256": "c834a734e5bf9a02e981b77b04e990e489082e4f8003d69d7c22984e0d50d5b6",
+    "bytes": 159247
+  },
+  {
+    "path": "cad/rev64/Rev64_parametric_model.scad",
+    "sha256": "3702160279088a0f0eb141e1b3de01ce0f7ce5bbca997d08db5c06c6170d08fa",
+    "bytes": 3052
+  },
+  {
+    "path": "cad/rev64/Rev64_pole_ring_ID5_OD10_L2.step",
+    "sha256": "07eb3b001ac5f2de8d05971db185268dcbabddac20e372f2088a9696ec810124",
+    "bytes": 12092
+  },
+  {
+    "path": "cad/rev64/Rev64_unassigned_outer_envelope_REFERENCE_ONLY.step",
+    "sha256": "e129e64946316d9f7e2ffadb37e59abdacb6ba11ca3ddc5d6a5ecb51e9152509",
+    "bytes": 12180
+  },
+  {
+    "path": "simulation/rev64/README.md",
+    "sha256": "e61f1552a8264441bb2b1414e65c8972c0355e0a6951c3ca62fbf78affd040f8",
+    "bytes": 1409
+  },
+  {
+    "path": "simulation/rev64/Rev64_CENTERED_0p5mm_BOBBIN_80T.fem",
+    "sha256": "afa877af7ce43e54f5b6ceb6e7b0b17d2501292402ecf4ee6bd0a6aa6bc4a589",
+    "bytes": 6221
+  },
+  {
+    "path": "simulation/rev64/Rev64_CENTERED_COIL_PM_KF.csv",
+    "sha256": "66748da73ffa69826a0e633f6eabf4cef93cb2f5025d713b870e43bbb44ef2b9",
+    "bytes": 27213
+  },
+  {
+    "path": "simulation/rev64/Rev64_force_comparison.png",
+    "sha256": "eff07521e9010f63fd28eb531e8b6b30dbaabb476d43abfea44f09d213a7f15f",
+    "bytes": 153897
+  },
+  {
+    "path": "simulation/rev64/Rev64_PM_ODD_DIRECT_FORCE_VALIDATION.csv",
+    "sha256": "8f8048a7aad8109c8ffb139e0b8063584e531fdd407605a4b518c348bf8c5ca2",
+    "bytes": 632
+  },
+  {
+    "path": "simulation/rev64/Rev64_result_summary.json",
+    "sha256": "b76b7cdcef7d913362400fc77b325ce5b52299f24082872a8a10bfd5faa5e2c1",
+    "bytes": 325
+  },
+  {
+    "path": "simulation/rev64/Rev64_source_geometry_check.json",
+    "sha256": "d66bc319111b3b6af247e4dbe70c96dc9edc4e8af4b678646c452550e43a1533",
+    "bytes": 623
+  },
+  {
+    "path": "simulation/rev64/Rev64_sweep_and_validate.lua",
+    "sha256": "4699a44a1709a15e96590fe1e402fd0e9d019b6030d80f1b109257b11fd55c2f",
+    "bytes": 3536
+  },
+  {
+    "path": "archive/recovered-history/manifest.csv",
+    "sha256": "2e5a8c7ee44cd3274ddabced0ad2bde1b4d309396882571054f0b6df0661b154",
+    "bytes": 873
+  },
+  {
+    "path": "archive/recovered-history/Rev62_4mm_COILS_2.1mm_RADIAL_80T_ROBUST_BOBBIN.fem",
+    "sha256": "748184a8c8a98f8fb94adc57fbf3906c6595afc44fd89ff8432fc69b75206ba1",
+    "bytes": 6660
+  },
+  {
+    "path": "archive/recovered-history/Rev62_build_and_commissioning_log.xlsx",
+    "sha256": "b475785e937ded5bfa4e7d863ccc381e786e26365b315b00e9dfc827e146ca54",
+    "bytes": 15251
+  },
+  {
+    "path": "archive/recovered-history/Rev62_build_robust_bobbin_geometry.lua",
+    "sha256": "a17a7ece30b43670be7f0ddb255bf508ac99644ed52858f888cf96ef8cb97966",
+    "bytes": 2474
+  },
+  {
+    "path": "archive/recovered-history/Rev62_CAD_notes.md",
+    "sha256": "1e80ad1b2efaeb581cd537620201b9dc78a5e550293b0120254cfa08ae171fb4",
+    "bytes": 4968
+  },
+  {
+    "path": "archive/recovered-history/Rev62_CENTERED_COIL_PM_KF.csv",
+    "sha256": "36da6c5b3ca0200809c116c2ddee811b666e780305d7901154029238e0fd1b25",
+    "bytes": 27259
+  },
+  {
+    "path": "archive/recovered-history/Rev62_centered_coil_PM_KF_sweep.lua",
+    "sha256": "14e93acffbdae93f5c34aa3038c788bbaba17b073086ac1e3ac75721885aa75a",
+    "bytes": 3044
+  },
+  {
+    "path": "archive/recovered-history/Rev63_PM_ODD_DIRECT_FORCE_VALIDATION.csv",
+    "sha256": "18e9dd1ba0965e7a8ea66d1a4688c53a15f1eeba586279852ca47deae221c1ff",
+    "bytes": 643
+  },
+  {
+    "path": "archive/recovered-history/Rev63_PM_odd_direct_force_validation.lua",
+    "sha256": "e2878a4f9f68c5b8617084552994fc6c59058030d4f5fa266caa184c4905538e",
+    "bytes": 3214
+  }
+]
