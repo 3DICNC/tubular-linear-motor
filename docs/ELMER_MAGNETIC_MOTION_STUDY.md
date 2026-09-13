@@ -1,25 +1,17 @@
-# Elmer magnetic motion study
+# Elmer magnetic motion study — withdrawn
 
-This folder records the first axisymmetric Elmer magnetostatic motion study for the 10 mm magnet concept.
+The uploaded animation is **not a valid moving-coil electromagnetic result** and must not be used for force, field uniformity, or motor-performance decisions.
 
-## Model
+It was produced from three coarse magnetostatic meshes. The permanent-magnet field was solved, but the moving coil was not represented with the correct 120-turn, three-phase current distribution or commutation at each position. The visual therefore looks incorrect because it mainly shows the fixed magnet field.
 
-- 10 x 10 mm alternating axial permanent magnets
-- 10 x 2 mm steel spacer buttons
-- 5 mm wide coil region, 13 mm bore to 26 mm outside diameter
-- Three coil positions across the fixed magnet stack
+## Replacement work required
 
-The permanent magnet material uses an axial magnetization of +/-820 kA/m. The field is solved by Elmer's `MagnetoDynamics2D` solver. The model outputs vector potential and magnetic flux density in VTU format.
+A valid study will use:
 
-## Results
+- the fixed 10 × 10 mm magnet and 10 × 2 mm steel-button stack;
+- the actual 9-coil A–B–C layout;
+- the correct current density for 120 turns at the commanded phase current;
+- phase-current changes at each position; and
+- a consistent refined mesh and force extraction.
 
-`elmer_coil_motion_study.gif` combines the three solved positions. The steel-button region produces a local idealized peak of about 2.84 T; this is a finite-element local value and is not a value to use as a free-air field rating.
-
-## Files
-
-- `motion_left.sif`, `motion_center.sif`, `motion_right.sif`: Elmer solver inputs.
-- `mesh_left`, `mesh_center`, `mesh_right`: solved VTU field data.
-- `motion_left.png`, `motion_center.png`, `motion_right.png`: rendered field frames.
-- `elmer_coil_motion_study.gif`: combined visual study.
-
-This is a geometry and field-visualization study. It is not yet the final full-stroke, nine-coil force model.
+The local Elmer files are retained as a solver-setup experiment only.
