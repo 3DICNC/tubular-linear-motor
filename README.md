@@ -64,6 +64,10 @@ The calculation script regenerates results and a force plot from the archived CS
 
 Confirm a supplier's **0.250 mm bare copper, Grade 1 enamel, finished diameter ≤0.281 mm**, then trial-wind a single pocket. The nominal six-layer plan leaves only 0.014 mm radial allowance. Record actual dimensions, turns, resistance and insulation condition before producing all six coils.
 
+## Elmer magnetic motion study
+
+The first three-position axisymmetric magnetic-field study for the 10 mm magnet concept is available in [the Elmer study notes](docs/ELMER_MAGNETIC_MOTION_STUDY.md). The rendered [motion animation](elmer_coil_motion_study.gif) is included at the repository root.
+
 ## Repository layout
 
 ```text
