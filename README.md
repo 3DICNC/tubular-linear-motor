@@ -66,7 +66,7 @@ Confirm a supplier's **0.250 mm bare copper, Grade 1 enamel, finished diameter â
 
 ## Elmer magnetic motion study
 
-The first three-position axisymmetric magnetic-field study for the 10 mm magnet concept is available in [the Elmer study notes](docs/ELMER_MAGNETIC_MOTION_STUDY.md). The rendered [motion animation](elmer_coil_motion_study.gif) is included at the repository root.
+The earlier Elmer motion animation has been withdrawn because it was not a valid moving-coil field solve. The retained notes explain the limitation and the requirements for a replacement study.
 
 ## Repository layout
 
