@@ -1,0 +1,24 @@
+{
+  "title": "One rail BOM — X-axis 370 mm travel reference",
+  "revision": "current-prototype-2026-09-15",
+  "notes": [
+    "This is one motor rail, not the total printer BOM.",
+    "The 450 mm encoder scale applies to X. Each 440 mm Y rail uses a 500 mm scale and cover foil.",
+    "Magnet supplier must confirm grade, temperature rating, axial magnetisation and same-batch supply."
+  ],
+  "items": [
+    {"id":"MAG-10-5","description":"N42SH axial disc magnet","buy_quantity":80,"used_quantity":78,"unit":"each","specification":"10 mm diameter x 5 mm; 150 C minimum; 39 two-disc sections","status":"supplier selection open"},
+    {"id":"SP-10-8-2","description":"Low-carbon-steel spacer washer","buy_quantity":40,"used_quantity":38,"unit":"each","specification":"10 mm OD x 8 mm ID x 2 mm; flat and burr-free","status":"supplier selection open"},
+    {"id":"TUBE-12-11","description":"Carbon-fibre tube","buy_quantity":1,"used_quantity":1,"unit":"500 mm length","specification":"12 mm OD x 11 mm ID; trim after retention trial","status":"ordered"},
+    {"id":"COIL-120","description":"120-turn moving coil","buy_quantity":9,"used_quantity":9,"unit":"each","specification":"13 mm bore x 5 mm wide; 8 mm centres; phase order A-B-C-A-B-C-A-B-C","status":"winding trial required"},
+    {"id":"WIRE-AWG25","description":"Enamelled copper wire","buy_quantity":100,"used_quantity":67.5,"unit":"m","specification":"AWG25; 0.455 mm bare; about 0.496 mm finished; Class F minimum","status":"purchase required"},
+    {"id":"RESIN-EL160","description":"High-temperature impregnation epoxy","buy_quantity":1,"used_quantity":null,"unit":"kit","specification":"Easy Composites EL160","status":"ordered"},
+    {"id":"ENC-RLS","description":"RLS linear incremental readhead","buy_quantity":1,"used_quantity":1,"unit":"each","specification":"RLC2HDAD20B00C00; 5 V TTL A/B/Z; 10 um","status":"preferred; field/temperature verification required"},
+    {"id":"SCALE-RLS","description":"RLS magnetic scale","buy_quantity":1,"used_quantity":1,"unit":"each","specification":"MS05AM450B0000; 450 mm; plus cover foil","status":"preferred"},
+    {"id":"FOIL-RLS","description":"RLS cover foil","buy_quantity":1,"used_quantity":1,"unit":"each","specification":"CF050045; 450 mm","status":"preferred"},
+    {"id":"RAIL-MGN12H","description":"Linear guide rail and carriage","buy_quantity":1,"used_quantity":1,"unit":"set","specification":"MGN12H, 450 mm","status":"purchase required"},
+    {"id":"TEMP","description":"Temperature sensing","buy_quantity":2,"used_quantity":2,"unit":"each","specification":"fine Type-K thermocouples: centre coil and tube","status":"purchase required"},
+    {"id":"DRIVE","description":"Motor controller channel","buy_quantity":1,"used_quantity":1,"unit":"channel","specification":"MKS XDrive 3.6 at 48 V with braking resistor","status":"owned / braking resistor pending"},
+    {"id":"CUSTOM","description":"End retention, coil carrier and fixture","buy_quantity":1,"used_quantity":1,"unit":"set","specification":"custom nonmagnetic components","status":"CAD and trial fit pending"}
+  ]
+}
