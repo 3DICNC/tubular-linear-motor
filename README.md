@@ -2,7 +2,7 @@
 
 Revision 64 engineering reference for a three-phase moving-coil tubular permanent-magnet motor. This repository preserves Revision 62 and Revision 64 CAD, electromagnetic models and archived simulation results, with reproducible calculations, a bill of materials and build records.
 
-**Status: prototype definition.** The motor has not been physically qualified in the recovered evidence. The 80-turn winding fit, lead routing, guidance, retention, tolerances and thermal limits remain open. Documentation completeness is not a manufacturing release.
+**Status: prototype definition.** The recovered Rev64 data remains preserved as history. The active build is now a 9-coil, 10 mm N42SH design; see [Current prototype build definition](docs/11-current-build.md) and the [one-rail BOM](docs/12-one-rail-bom.md). It has not been physically qualified. Documentation completeness is not a manufacturing release.
 
 ![Revision 64 CAD cutaway](cad/rev64/Rev64_CAD_cutaway.png)
 
@@ -36,6 +36,8 @@ The animation shows the recovered Rev64 concept with a fixed carbon tube, fixed 
 8. [Commissioning and measurement records](docs/08-commissioning.md)
 9. [Open decisions and build milestones](docs/09-roadmap.md)
 10. [Sources and provenance](docs/10-sources.md)
+11. [Current prototype build definition](docs/11-current-build.md)
+12. [One-rail BOM — X-axis reference](docs/12-one-rail-bom.md)
 
 A [single-file engineering manual](docs/ENGINEERING_MANUAL.md) combines these chapters. Use the chapter files as the editable originals.
 
@@ -64,16 +66,13 @@ The calculation script regenerates results and a force plot from the archived CS
 
 Confirm a supplier's **0.250 mm bare copper, Grade 1 enamel, finished diameter ≤0.281 mm**, then trial-wind a single pocket. The nominal six-layer plan leaves only 0.014 mm radial allowance. Record actual dimensions, turns, resistance and insulation condition before producing all six coils.
 
-## Elmer magnetic motion study
-
-The earlier Elmer motion animation has been withdrawn because it was not a valid moving-coil field solve. The retained notes explain the limitation and the requirements for a replacement study.
-
 ## Repository layout
 
 ```text
 cad/                     Preserved Rev62 and Rev64 CAD packages
 simulation/rev64/        Preserved model, Lua and simulation results
 archive/recovered-history/ Earlier model, workbook and supporting records
+winding-machine/         Direct-drive automatic coil-winder design
 bom/                     Machine-readable bill of materials
 calculations/            Editable assumptions and generated results
 docs/                    Engineering manual and source references
