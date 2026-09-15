@@ -1,58 +1,48 @@
 # Tubular linear motor
 
-Revision 64 engineering reference for a three-phase moving-coil tubular permanent-magnet motor. This repository preserves Revision 62 and Revision 64 CAD, electromagnetic models and archived simulation results, with reproducible calculations, a bill of materials and build records.
+This repository documents an experimental moving-coil tubular motor for a 3D printer. The **active build** is the nine-coil prototype below. Rev62 and Rev64 assets are preserved as recovered historical material; they are not current drawings, calculations, winding instructions, or simulation results.
 
-**Status: prototype definition.** The recovered Rev64 data remains preserved as history. The active build is now a 9-coil, 10 mm N42SH design; see [Current prototype build definition](docs/11-current-build.md) and the [one-rail BOM](docs/12-one-rail-bom.md). It has not been physically qualified. Documentation completeness is not a manufacturing release.
+> **Build status — not qualified.** The active geometry has not yet passed a physical coil, force, thermal, encoder-field, or long-stroke test. The old Rev64 GIF and Elmer images are archived because their coil geometry and/or field representation are wrong. Do not use them to make engineering decisions.
 
-![Revision 64 CAD cutaway](cad/rev64/Rev64_CAD_cutaway.png)
+![Current nine-coil motor layout — schematic only](media/current-nine-coil-layout.svg)
 
-## Motion preview
+## Active prototype — one X-axis rail
 
-![Revision 64 motion preview](media/rev64_real_life_motion.gif)
-
-The animation shows the recovered Rev64 concept with a fixed carbon tube, fixed magnet/pole stack and moving six-coil bobbin over the nominal ±20 mm stroke. It is an illustrative visualization made from the recovered dimensions. It does not add the still-open guide, carriage, end retention, wiring exit or mounting design.
-
-| Nominal feature | Revision 64 |
+| Feature | Current definition |
 |---|---|
-| Total geometric travel | 40 mm, centred ±20 mm |
-| Stationary stack | 94 mm; sixteen Ø10 × 5 mm magnets and seven Ø10 / Ø5 × 2 mm pole rings |
-| Carbon tube | Ø12 outside, Ø10.2 inside |
-| Moving bobbin | Ø12.4 bore, 0.50 mm base wall, 45 mm overall length |
-| Windings | Six coils, 80 turns each, 4 mm wide, 8 mm pitch |
-| Winding envelope | Ø13.4 inside, Ø16.8 outside |
-| Phase assignment | A–B–C–A–B–C along increasing Z |
-| Archived mean force constant | 2.375722 N/A of balanced current-vector magnitude |
-| Equivalent sinusoidal phase-peak scale | Approximately 2.909654 N/A; see current definitions |
+| Usable coil-centre travel | 370 mm |
+| Magnet rod | 39 sections, 466 mm active stack |
+| Each section | Two Ø10 × 5 mm axially magnetised N42SH discs, joined N-to-S |
+| Spacer | Ø10 × Ø8 × 2 mm low-carbon-steel washer between sections |
+| Section pitch | 12 mm |
+| Tube | Carbon fibre Ø12 OD × Ø11 ID; buy 500 mm and trim after retention proof |
+| Moving coil pack | **9 independent air coils**, 69 mm overall length |
+| Each coil | 13 mm bore × 5 mm width, 120 turns AWG25 |
+| Wire | 0.455 mm bare / about 0.496 mm finished; prepare 7.5 m per coil |
+| Phase order | A–B–C–A–B–C–A–B–C; three series coils per phase |
+| Controller | One MKS XDrive 3.6 channel at 48 V; braking resistor required |
+| Feedback | RLS RLC2HD / MS05, mounted on the rail side away from the motor field |
 
-## Read the documentation
+The schematic shows intended physical arrangement only. It is not a field plot, animation, force prediction, wiring diagram, or manufacturing drawing.
 
-1. [Design and coordinate system](docs/01-design.md)
-2. [Revision history and workbook audit](docs/02-history.md)
-3. [Calculations and assumptions](docs/03-calculations.md), [generated numerical results](calculations/results.md)
-4. [Bill of materials and procurement](docs/04-bom.md)
-5. [Winding and electrical connections](docs/05-winding.md)
-6. [Mechanical assembly and tolerances](docs/06-mechanics.md)
-7. [Simulation and reproduction](docs/07-simulation.md)
-8. [Commissioning and measurement records](docs/08-commissioning.md)
-9. [Open decisions and build milestones](docs/09-roadmap.md)
-10. [Sources and provenance](docs/10-sources.md)
-11. [Current prototype build definition](docs/11-current-build.md)
-12. [One-rail BOM — X-axis reference](docs/12-one-rail-bom.md)
+## Current build documents
 
-A [single-file engineering manual](docs/ENGINEERING_MANUAL.md) combines these chapters. Use the chapter files as the editable originals.
+1. [Current prototype definition](docs/11-current-build.md) — mechanical, coil, thermal and encoder decisions.
+2. [One-rail BOM](docs/12-one-rail-bom.md) — purchase/build list for the 370 mm X rail.
+3. [Current winding recipe](winding-machine/docs/CURRENT_120T_AWG25_RECIPE.md) — setup and trial measurements.
+4. [Current build records](records/README.md) — winding, force, thermal and release records.
+5. [Project audit and withdrawn simulations](docs/13-project-audit.md) — what is historical and why.
 
-## Open the models
+## Historical recovered material
 
-- [Current complete STEP assembly](cad/rev64/Rev64_centered_assembly.step)
-- [Current editable OpenSCAD model](cad/rev64/Rev64_parametric_model.scad)
-- [Current FEMM model](simulation/rev64/Rev64_CENTERED_0p5mm_BOBBIN_80T.fem)
-- [Earlier STEP assembly](cad/rev62/Rev62_centered_assembly.step)
+- [Rev62/Rev64 history](docs/02-history.md), preserved for provenance.
+- [Archived CAD](cad/) and [archived FEMM work](simulation/rev64/), which do **not** match the active nine-coil rail.
+- [Legacy manual](docs/ENGINEERING_MANUAL.md), which is a frozen Rev64 reference only.
+- [Archived visual material](media/README.md), which must not be treated as a simulation.
 
-STEP exports do not update automatically after an OpenSCAD edit. The winding solids are envelopes, not individual copper wires. The separate outer reference annulus is **not an assigned steel housing**.
+## Recalculate and check the archived Rev64 references
 
-## Recalculate and check
-
-Python 3.10 or later, standard library only:
+These commands validate the recovered historical files only; they do not validate the active prototype:
 
 ```sh
 python tools/calculate.py
@@ -60,26 +50,18 @@ python tools/verify.py
 python -m unittest discover -s tests -v
 ```
 
-The calculation script regenerates results and a force plot from the archived CSV data; it does not run FEMM. The verifier checks source hashes, geometry records, current normalization and numerical consistency. No network is required. For a new FEMM run, use the isolated-run preparation described in the simulation chapter.
-
-## First build milestone
-
-Confirm a supplier's **0.250 mm bare copper, Grade 1 enamel, finished diameter ≤0.281 mm**, then trial-wind a single pocket. The nominal six-layer plan leaves only 0.014 mm radial allowance. Record actual dimensions, turns, resistance and insulation condition before producing all six coils.
-
 ## Repository layout
 
 ```text
-cad/                     Preserved Rev62 and Rev64 CAD packages
-simulation/rev64/        Preserved model, Lua and simulation results
-archive/recovered-history/ Earlier model, workbook and supporting records
-winding-machine/         Direct-drive automatic coil-winder design
-bom/                     Machine-readable bill of materials
-calculations/            Editable assumptions and generated results
-docs/                    Engineering manual and source references
-records/                 Empty Rev64 build/test templates
-tools/                   Calculation, verification and run preparation
-tests/                   Numerical and edge-case checks
-media/                   Motion preview animation and rendered frames
+bom/                     Current one-rail BOM plus preserved Rev64 BOM
+cad/, simulation/rev64/  Historical recovered files; not the active design
+concepts/                Exploratory work; check its status before reuse
+docs/11-current-build.md Active mechanical/electrical definition
+docs/12-one-rail-bom.md  Active X-rail procurement/build list
+media/                   Current schematic and withdrawn legacy visuals
+records/                 Current prototype test templates
+winding-machine/         Winder hardware plus active winding recipe
+tools/, tests/           Archived Rev64 reproducibility tools
 ```
 
-No license has been selected. Third-party standards and manuals are linked, not redistributed. Keep the repository private until ownership and release choices are settled.
+No license has been selected. Keep the project private until ownership and release choices are settled.
