@@ -1,5 +1,7 @@
 # Bill of materials and procurement
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 This is a complete register of known parts and unresolved systems, not a fully orderable production BOM. Blank prices and supplier fields mean unknown, not zero. No total build cost can be stated until those items are selected. The machine-readable [BOM](../bom/bom.json) retains supplier, part-number and cost fields for future quotes.
 
 | ID | Item | Quantity | Specification | Status |
@@ -25,3 +27,4 @@ This is a complete register of known parts and unresolved systems, not a fully o
 WND-01 is the wound subassembly and WIRE-01 is its raw material: do not count both as purchased finished coils plus purchased winding wire unless intentionally outsourcing spares. The trial former is additional tooling, not part of the 31-solid assembly. The reference annulus is excluded from the BOM.
 
 Use the generated calculations for wire consumption and the separate full-build-plus-trial purchase allowance. Obtain a small trial spool before a production order. Confirm magnet coating dimensions, actual tube tolerances and bobbin process before releasing custom parts.
+

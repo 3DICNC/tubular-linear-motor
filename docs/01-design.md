@@ -1,5 +1,7 @@
 # Design and coordinate system
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 ## Architecture
 
 The permanent-magnet/steel stack and carbon tube are stationary. Six wound coils and their common nonmagnetic bobbin move along Z. FEMM uses an axisymmetric cross-section with horizontal coordinate r and vertical coordinate z; the CAD axis is Z. All geometry files use millimetres. Force derivatives convert displacement to metres.
@@ -40,3 +42,4 @@ At either ±20 mm extreme, the farthest winding edge is 42 mm from the stack cen
 ## Reference envelope
 
 The Ø17 bore / Ø23 outside annulus is unassigned FEMM reference geometry and is excluded from the physical STEP assembly. No steel yoke or centre through-rod is established by the source model. Introducing either requires a fresh electromagnetic and mechanical evaluation.
+

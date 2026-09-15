@@ -1,17 +1,5 @@
-# Elmer magnetic motion study — withdrawn
+# Withdrawn Elmer magnetic-motion study
 
-The uploaded animation is **not a valid moving-coil electromagnetic result** and must not be used for force, field uniformity, or motor-performance decisions.
+**Status: withdrawn from engineering use.** The files in this folder are retained only to show the exploratory work that was attempted. The coil cross-sections, magnetic geometry and flux rendering were not correct for the active nine-coil motor. They do not demonstrate field-through-coil behaviour, force, back-EMF, heating, or motion.
 
-It was produced from three coarse magnetostatic meshes. The permanent-magnet field was solved, but the moving coil was not represented with the correct 120-turn, three-phase current distribution or commutation at each position. The visual therefore looks incorrect because it mainly shows the fixed magnet field.
-
-## Replacement work required
-
-A valid study will use:
-
-- the fixed 10 × 10 mm magnet and 10 × 2 mm steel-button stack;
-- the actual 9-coil A–B–C layout;
-- the correct current density for 120 turns at the commanded phase current;
-- phase-current changes at each position; and
-- a consistent refined mesh and force extraction.
-
-The local Elmer files are retained as a solver-setup experiment only.
+Do not run or modify these models as a basis for a build decision. A new model must start from the measured active geometry and pass physical static-force correlation. See [the project audit](13-project-audit.md).

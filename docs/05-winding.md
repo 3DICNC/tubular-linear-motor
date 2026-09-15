@@ -1,5 +1,7 @@
 # Winding and electrical connections
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 ## First-coil wire specification
 
 Request solid enamelled copper magnet wire with 0.250 mm nominal bare conductor, Grade 1 insulation and a supplier-guaranteed finished diameter ≤0.281 mm. Ask for the insulation chemistry, thermal class, resistance per metre, batch certificate and handling/termination guidance. Thermal class and enamel grade are different specifications. Final thermal class must be compatible with the selected bobbin, adhesive and temperature envelope.
@@ -39,3 +41,4 @@ flowchart LR
 ```
 
 This is a proposed star topology for planning, not a recovered terminal drawing. Controller compatibility, neutral treatment and verified series polarity are required before wiring release. Keep individual coil leads accessible during the trial stage. All current and resistance calculations state their topology explicitly.
+

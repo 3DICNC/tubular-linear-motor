@@ -1,5 +1,7 @@
 # Commissioning and measurement records
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 The recovered workbook contains no completed test evidence. Use the empty [Rev64 record templates](../records/README.md) for new measurements. Every measurement needs a build identifier, revision, date, instrument and calibration/reference information. Preserve raw readings separately from calculations.
 
 ## Stage 1: winding and mechanical fit
@@ -27,3 +29,4 @@ The old <1°C over 10 minutes criterion may be a useful proposed stability check
 ## Release evidence
 
 Before declaring continuous or peak ratings, close winding fit, all coil inspections, polarity, guidance, retention, limits, force mapping, thermal characterization and controller protection. Peak current needs an explicit duration, repetition/duty, starting temperature and cooling condition. Continuous force needs a defined ambient and mounting arrangement. Record unresolved deviations and do not label a pending item as passed.
+

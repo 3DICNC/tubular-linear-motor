@@ -1,5 +1,7 @@
 # Calculations and assumptions
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 Run `python tools/calculate.py` from the repository root to generate [results](../calculations/results.md) and [machine-readable values](../calculations/results.json). Inputs are in [parameters.json](../calculations/parameters.json). The calculator rejects impossible layer counts and gross overfill; passing those checks does not prove a manufacturable winding.
 
 ## Source hierarchy and units
@@ -72,3 +74,4 @@ For each phase, e_j = (dλ_j/dx)v. The relevant line voltage is e_A − e_B, etc
 General phase voltage is v = Ri + d(Li)/dt + e_PM, with mutual terms in the inductance matrix and position dependence if present. A first current-ramp estimate is di/dt ≈ (V_available − Ri − e)/L only after defining the electrical circuit and inductance. The 12 mm adjacent-pair pitch implies a nominal 24 mm magnetic period, so f_e ≈ |velocity|/0.024 m away from end effects. Full force commutation should use a calibrated position/phase map.
 
 Inductance matrix, bus voltage, maximum speed, PWM ripple, eddy losses, saturation, magnetic temperature effects, fatigue life, structural deflection and a thermal duty rating cannot be calculated numerically from the supplied evidence. Required inputs and tests are listed in the roadmap; no guessed values are presented as results.
+

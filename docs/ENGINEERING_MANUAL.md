@@ -1,5 +1,7 @@
 # Tubular linear motor — engineering manual
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 Revision 64 documentation, with Revision 62 history. Prototype definition; no physical qualification established.
 
 See [repository overview](../README.md) and [generated calculations](../calculations/results.md).
@@ -415,4 +417,5 @@ Full third-party manuals and standards have not been copied into the repository.
 New checks: archived data consistency, source hash matching, analytical dimensions/volumes, current normalization, finite-difference flux gradients, force statistics, direct-force decomposition, calculation edge cases and documentation links.
 
 Not newly performed: FEMM solve, CAD-kernel solid reimport, physical winding, force or thermal test, native Excel recalculation. Archived records of prior numerical/CAD checks are retained as such.
+
 

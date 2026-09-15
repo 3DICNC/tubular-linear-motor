@@ -1,5 +1,7 @@
 # Open decisions and milestones
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 | ID | Decision / work | Required evidence | Status |
 |---|---|---|---|
 | M1 | Confirm axis orientation, moving mass, acceleration and stroke | Updated requirements including gravity, friction and cable forces | Open |
@@ -20,3 +22,4 @@ Recommended order: requirements confirmation and wire procurement in parallel, t
 Keep recovered CAD and simulation files unchanged as baselines. Put design changes under a new revision directory. Describe changed dimensions, reason, source evidence and affected calculations. Generate fresh STEP exports, rerun relevant simulations and compare against baseline. Attach build/test evidence to the same revision. Do not promote an assumption to a measured fact without a record.
 
 The GitHub issue template supports each milestone's requirements, evidence and acceptance criteria. This repository is the requested GitHub project; a separate GitHub Projects board is not assumed.
+

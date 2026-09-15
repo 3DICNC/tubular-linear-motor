@@ -1,5 +1,7 @@
 # Simulation and reproduction
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 ## Archived model
 
 The preserved Rev64 FEMM file is a static axisymmetric model in millimetres with precision 1e−8, a zero-vector-potential outer boundary and an approximately r = 0–30 mm, z = −60–60 mm air domain. All six coils are group 100. Their radii are 6.7–8.4 mm and their centres are −20, −12, −4, 4, 12, 20 mm. The saved starting phase currents are −1, +0.5, +0.5 A; the sweep resets them to zero.
@@ -37,3 +39,4 @@ Do not apply the older −36 mm translation to this already-centred model. Wait 
 ## Before treating force as a release value
 
 Perform mesh refinement and air-boundary sensitivity studies, compare central and endpoint differentiation schemes, add supplier magnetic curves and temperature cases, check proposed metal fixtures, measure force at known phase currents and positions, and resolve the actual drive's commutation law. Losses and dynamics require additional models and measurements. Model convergence at a numerical precision setting alone does not establish physical accuracy.
+

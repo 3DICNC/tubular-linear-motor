@@ -1,5 +1,7 @@
 # Mechanical assembly and tolerances
 
+> **Historical Rev64 reference — not the active build.** This file describes the recovered six-coil / 80-turn Rev64 concept. It does not define the current nine-coil prototype. Use [the current prototype definition](11-current-build.md), [one-rail BOM](12-one-rail-bom.md), and [project audit](13-project-audit.md) for active work.
+
 ## Nominal geometry is not a shop drawing
 
 The CAD includes five full-width 4 mm separator lands and two 0.5 mm end flanges. These were provisional additions in Rev62 and remain provisional in Rev64. Bobbin material candidates PEEK or G10 appear in the old workbook; neither is a selected, qualified process for this geometry.
@@ -27,3 +29,4 @@ This is a development sequence. Detailed retention, guidance and connection draw
 Record bobbin modulus, creep behaviour and temperature limit; adhesive cure shrinkage and temperature range; tube thermal expansion, straightness and conductivity; magnet temperature-dependent properties and coating. The minimum compatible limit of the insulation/material system constrains operation. Carbon composite properties depend on layup, so a generic isotropic assumption does not establish thermal or mechanical performance.
 
 Mass, stiffness, buckling, bearing life and fatigue calculations are pending the carriage, support spans, material properties, load directions and duty cycle. Do not substitute the 0.5 kg historical carriage target for a measured moving assembly mass.
+
