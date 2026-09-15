@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 440" role="img" aria-labelledby="title desc">
+<title id="title">Nine-coil tubular linear motor schematic</title><desc id="desc">A 39-section magnet rod in a carbon tube, nine moving coils, linear rail and remote encoder scale.</desc>
+<rect width="1320" height="440" fill="#f7fafc"/>
+<text x="660" y="38" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#123047">Active nine-coil prototype — schematic only</text>
+<text x="660" y="66" text-anchor="middle" font-family="Arial" font-size="14" fill="#476174">Not a field simulation, animation, wiring diagram or manufacturing drawing</text>
+<line x1="100" y1="128" x2="1220" y2="128" stroke="#556b7d" stroke-width="10"/><rect x="100" y="112" width="1120" height="32" rx="16" fill="#dae6ee" stroke="#556b7d" stroke-width="2"/>
+<text x="660" y="107" text-anchor="middle" font-family="Arial" font-size="15" fill="#123047">12 mm OD carbon tube — 39 magnetic sections, 466 mm active length</text>
+<g stroke="#263f52" stroke-width="1.4"> 
+<rect x="125" y="117" width="20" height="22" fill="#d94c50"/><rect x="145" y="117" width="20" height="22" fill="#3979c4"/><rect x="165" y="117" width="4" height="22" fill="#7a8790"/>
+<rect x="169" y="117" width="20" height="22" fill="#3979c4"/><rect x="189" y="117" width="20" height="22" fill="#d94c50"/><rect x="209" y="117" width="4" height="22" fill="#7a8790"/>
+<rect x="213" y="117" width="20" height="22" fill="#d94c50"/><rect x="233" y="117" width="20" height="22" fill="#3979c4"/><rect x="253" y="117" width="4" height="22" fill="#7a8790"/>
+<rect x="257" y="117" width="20" height="22" fill="#3979c4"/><rect x="277" y="117" width="20" height="22" fill="#d94c50"/><rect x="297" y="117" width="4" height="22" fill="#7a8790"/>
+<rect x="301" y="117" width="20" height="22" fill="#d94c50"/><rect x="321" y="117" width="20" height="22" fill="#3979c4"/>
+</g>
+<text x="255" y="164" text-anchor="middle" font-family="Arial" font-size="13" fill="#263f52">alternating axial magnet pairs + 2 mm steel spacers</text>
+<path d="M390 128 H1165" stroke="#526f83" stroke-width="8" stroke-dasharray="16 6"/><text x="790" y="165" text-anchor="middle" font-family="Arial" font-size="13" fill="#263f52">remaining sections compressed in this overview</text>
+<g stroke="#9a4b14" stroke-width="3" fill="#f5a24a">
+<rect x="480" y="182" width="42" height="88" rx="8"/><rect x="532" y="182" width="42" height="88" rx="8"/><rect x="584" y="182" width="42" height="88" rx="8"/><rect x="636" y="182" width="42" height="88" rx="8"/><rect x="688" y="182" width="42" height="88" rx="8"/><rect x="740" y="182" width="42" height="88" rx="8"/><rect x="792" y="182" width="42" height="88" rx="8"/><rect x="844" y="182" width="42" height="88" rx="8"/><rect x="896" y="182" width="42" height="88" rx="8"/>
+</g>
+<line x1="501" y1="270" x2="917" y2="270" stroke="#9a4b14" stroke-width="2"/><text x="709" y="293" text-anchor="middle" font-family="Arial" font-size="16" fill="#763505">Nine moving 120-turn coils — 5 mm wide, 8 mm centres, A-B-C-A-B-C-A-B-C</text>
+<path d="M490 333 H930" stroke="#1e6f93" stroke-width="13"/><rect x="478" y="317" width="464" height="32" rx="6" fill="none" stroke="#1e6f93" stroke-width="2"/><text x="710" y="379" text-anchor="middle" font-family="Arial" font-size="15" fill="#164b63">MGN12H linear rail independently aligns the moving coil carrier</text>
+<rect x="970" y="183" width="220" height="28" rx="5" fill="#573d7c"/><circle cx="1030" cy="227" r="17" fill="#b68ddb" stroke="#573d7c" stroke-width="3"/><text x="1080" y="257" text-anchor="middle" font-family="Arial" font-size="14" fill="#573d7c">RLS scale and readhead on rail side</text>
+<path d="M480 405 H935" stroke="#c63c59" stroke-width="3"/><path d="M480 405 l12 -7 v14 z M935 405 l-12 -7 v14 z" fill="#c63c59"/><text x="708" y="429" text-anchor="middle" font-family="Arial" font-size="14" fill="#9a1836">X coil-centre usable travel: 370 mm</text>
+</svg>
