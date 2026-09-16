@@ -1,6 +1,6 @@
 # Static force record
 
-Build ID: ___   Date: ___   Revision: ___
+Build ID: ___   Date: ___   Revision: Current nine-coil prototype
 Load-cell calibration and zero: ___
 Position datum/instrument: ___
 Fixture and force sign convention: ___
@@ -10,6 +10,6 @@ Current measurement instruments: ___
 |---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | |
 
-F_PM_odd = (F+ − F−)/2. F_even = (F+ + F−)/2. Predicted force uses the recorded positive current vector and the matching Rev64 gradient. Difference % = 100(F_PM_odd − F_pred)/F_pred, unavailable if F_pred = 0. Record drift, fixture friction, current reversal timing and position repeatability.
+`F_PM_odd = (F+ − F−)/2`; `F_even = (F+ + F−)/2`. Enter a prediction only from a future corrected, documented model using the same geometry, current vector and datum. The archived Rev64 gradient must not be used. Record drift, fixture friction, current reversal timing and position repeatability.
 
 Disposition and supporting raw data: Pending

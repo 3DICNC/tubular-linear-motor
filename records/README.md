@@ -1,10 +1,10 @@
-# Rev64 build records
+# Current prototype build records
 
-Copy a template to a build-specific filename and enter actual readings. Empty fields mean unmeasured. Keep the template unchanged for reuse. Use consistent build IDs across winding, force and thermal records. Units are stated in each template.
+These records apply to the active nine-coil prototype. Use the current 120-turn AWG25 definition, not the older Rev64 templates or archived simulation gradients.
 
 - [Winding trial](winding-trial.md)
-- [Force test](force-test.md)
+- [Static force test](force-test.md)
 - [Thermal test](thermal-test.md)
-- [Build release](release.md)
+- [Prototype release](release.md)
 
-The historical Excel workbook remains in the archive for provenance. Its Rev62 dimensions, fixed force targets and test candidates are not the Rev64 operating specification.
+The historical Excel workbook remains in the archive for provenance. It is not an active specification.
