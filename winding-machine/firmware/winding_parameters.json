@@ -1,0 +1,19 @@
+{
+  "status": "active-prototype-trial-only",
+  "coil": {
+    "turns_total": 120,
+    "bore_mm": 13.0,
+    "winding_width_mm": 5.0,
+    "wire_bare_diameter_mm": 0.455,
+    "wire_finished_diameter_mm": 0.496,
+    "coil64_estimate": {"inductance_uH": 238, "dc_resistance_ohm_at_20C": 0.752, "wire_length_m_without_leads": 7.088, "wire_mass_g": 10.326, "reported_layers": 14}
+  },
+  "guide_axis": {
+    "threaded_rod_pitch_mm_per_rev": 2.0,
+    "motor_full_steps_per_rev": 200,
+    "microsteps": 16,
+    "steps_per_mm": 1600
+  },
+  "recipe_status": "Do not auto-run a layer recipe yet. Measure a single 120-turn trial coil, then set guide traverse from the actual finished wire diameter, tension, former geometry and measured winding width.",
+  "operating_limits": {"initial_spindle_rpm": 30, "maximum_spindle_rpm_before_trial_validation": 120}
+}

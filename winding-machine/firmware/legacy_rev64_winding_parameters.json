@@ -1,0 +1,32 @@
+{
+  "project": "Rev64 tubular linear motor coil",
+  "wire": {
+    "bare_diameter_mm": 0.250,
+    "maximum_finished_diameter_mm": 0.281
+  },
+  "coil": {
+    "turns_total": 80,
+    "winding_width_mm": 4.0,
+    "radial_window_mm": 1.7,
+    "bobbin_bore_mm": 12.4
+  },
+  "guide_axis": {
+    "lead_screw_lead_mm_per_rev": 2.0,
+    "motor_full_steps_per_rev": 200,
+    "microsteps": 16,
+    "steps_per_mm": 800,
+    "full_width_steps": 3200
+  },
+  "recipe": [
+    {"layer": 1, "turns": 14, "guide_direction": "right", "guide_steps": 3200, "pitch_mm_per_rev": 0.285714},
+    {"layer": 2, "turns": 14, "guide_direction": "left", "guide_steps": 3200, "pitch_mm_per_rev": 0.285714},
+    {"layer": 3, "turns": 13, "guide_direction": "right", "guide_steps": 3200, "pitch_mm_per_rev": 0.307692},
+    {"layer": 4, "turns": 13, "guide_direction": "left", "guide_steps": 3200, "pitch_mm_per_rev": 0.307692},
+    {"layer": 5, "turns": 13, "guide_direction": "right", "guide_steps": 3200, "pitch_mm_per_rev": 0.307692},
+    {"layer": 6, "turns": 13, "guide_direction": "left", "guide_steps": 3200, "pitch_mm_per_rev": 0.307692}
+  ],
+  "operating_limits": {
+    "initial_spindle_rpm": 30,
+    "maximum_spindle_rpm_before_trial_validation": 120
+  }
+}
